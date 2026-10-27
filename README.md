@@ -4,10 +4,11 @@ Meta Quest側の無線接続準備を担当するアプリと、Windows用の専
 
 ## 初回：同じPCでUSBセットアップ
 
-1. [最新のReleases](https://github.com/noriki-mochizuki/multi-quest-connect/releases/latest)から **MultiQuestConnect-Setup.zip** を取得し、全ファイルを展開します。
+1. [Connect専用Setup0.4.0](https://github.com/noriki-mochizuki/multi-quest-connect/releases/tag/setup-v0.4.0)から **MultiQuestConnect-Setup.zip** を取得し、全ファイルを展開します。
 2. **Multi Quest Connect Setup.exe** を起動します。.NETと必要なADB、Connect APKを同梱しています。
 3. QuestのDeveloper Modeを準備し、PCとQuestを同じLANへ接続します。USBデータケーブルでつなぎ、Quest内のUSBデバッグ許可で、信頼するPCでは **「このパソコンから常に許可」** を本人が選びます。PCによってはMeta公式USBドライバーの別途導入が必要です。
 4. セットアップで対象Questを選び、導入・設定を実行します。Connectを上書き導入し、必要な権限とサービス、無線ADBを設定し、USBとLANの実機IDが一致した接続先だけPCへ登録します。
+   Connect導入済みの場合は「そのまま使う／再インストールする」を尋ねます。初期選択は「そのまま使う」。再インストールは設定を保持する上書きで、アンインストールやデータ消去は行いません。導入済みの方が新しい場合はダウングレードせず、そのまま使います。
 5. 完了後にUSBを外し、[Multi Quest Viewerのインストーラー](https://github.com/noriki-mochizuki/multi-quest-viewer/releases/latest)を同じWindowsユーザーでインストールして起動します。Viewer0.9.1以降が、専用セットアップの登録を読み込みます。
 
 表示するVRアプリは利用者がQuest上で起動します。QuestBladeを先に起動・接続する必要はありません。Viewerの通常のQuest表示を使用してください。QuestBlade専用のゲーム内配信もViewerの選択肢として残ります。
