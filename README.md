@@ -4,7 +4,7 @@ Meta Quest側の無線接続準備を担当するアプリと、Windows用の専
 
 ## 初回：同じPCでUSBセットアップ
 
-1. [Connect専用Setup0.4.1](https://github.com/noriki-mochizuki/multi-quest-connect/releases/tag/setup-v0.4.1)から **MultiQuestConnect-Setup.zip** を取得し、全ファイルを展開します。
+1. [Connect専用Setup0.4.2](https://github.com/noriki-mochizuki/multi-quest-connect/releases/tag/setup-v0.4.2)から **MultiQuestConnect-Setup.zip** を取得し、全ファイルを展開します。
 2. **Multi Quest Connect Setup.exe** を起動します。.NETと必要なADB、Connect APKを同梱しています。
 3. QuestのDeveloper Modeを準備し、PCとQuestを同じLANへ接続します。USBデータケーブルでつなぎ、Quest内のUSBデバッグ許可で、信頼するPCでは **「このパソコンから常に許可」** を本人が選びます。PCによってはMeta公式USBドライバーの別途導入が必要です。
 4. セットアップで対象Questを選び、導入・設定を実行します。Connectを上書き導入し、必要な権限とサービス、無線ADBを設定し、USBとLANの実機IDが一致した接続先だけPCへ登録します。
